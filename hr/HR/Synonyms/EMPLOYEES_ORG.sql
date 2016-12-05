@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM hr.employees_org FOR hr.employees;
