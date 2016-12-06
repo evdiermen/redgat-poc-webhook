@@ -5,8 +5,7 @@ CREATE TABLE hr.locations (
   city VARCHAR2(30 BYTE) NOT NULL CONSTRAINT loc_city_nn CHECK ("CITY" IS NOT NULL),
   state_province VARCHAR2(25 BYTE),
   country_id CHAR(2 BYTE),
-  CONSTRAINT loc_id_pk PRIMARY KEY (location_id),
-  CONSTRAINT loc_c_id_fk FOREIGN KEY (country_id) REFERENCES hr.countries (country_id)
+  CONSTRAINT loc_id_pk PRIMARY KEY (location_id)
 );
 COMMENT ON TABLE hr.locations IS 'Locations table that contains specific address of a specific office,
 warehouse, and/or production site of a company. Does not store addresses /
