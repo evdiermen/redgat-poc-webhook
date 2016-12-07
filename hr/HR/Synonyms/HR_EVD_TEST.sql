@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM hr.hr_evd_test FOR hr.hr_evd_test2;
