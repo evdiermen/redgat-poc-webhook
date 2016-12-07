@@ -11,6 +11,7 @@ IS
    Datum        Auteur      Wijzigingen
    08-11-2016   TvG         Creatie
    28-11-2016   JD          Dummy modify
+   07-12-2016   EvD         Niks
   =============================================================================================*/
    BEGIN
       RETURN (   (p_waarde1 != p_waarde2)

@@ -1,0 +1,1 @@
+CREATE INDEX hr.evd_ett_idx1 ON hr.hr_evd_test2(abc);
