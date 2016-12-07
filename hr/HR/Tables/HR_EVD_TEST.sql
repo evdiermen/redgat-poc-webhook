@@ -1,4 +1,4 @@
 CREATE TABLE hr.hr_evd_test (
-  abc VARCHAR2(10 BYTE) NOT NULL,
-  getal NUMBER(10)
+  abc VARCHAR2(10 BYTE),
+  getal NUMBER(10,2)
 );
