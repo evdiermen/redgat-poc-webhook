@@ -26,5 +26,5 @@ records delimited by NEWLINE
          recid        CHAR(255)
        )
 )
-LOCATION ('BrandsExport_160314_141221.csv'))
+LOCATION ('test.csv'))
 REJECT LIMIT UNLIMITED;
