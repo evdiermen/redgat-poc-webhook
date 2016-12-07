@@ -1,0 +1,1 @@
+GRANT SELECT ON hr.hr_test TO bkr_owner;
