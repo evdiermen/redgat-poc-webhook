@@ -1,0 +1,1 @@
+CREATE SEQUENCE hr.hr_htt_seq NOCACHE;
