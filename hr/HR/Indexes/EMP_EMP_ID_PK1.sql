@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX hr.emp_emp_id_pk1 ON hr.hr_employees_mv(employee_id);
