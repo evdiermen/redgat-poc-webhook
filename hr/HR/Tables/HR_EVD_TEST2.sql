@@ -3,5 +3,6 @@ CREATE TABLE hr.hr_evd_test2 (
   def VARCHAR2(10 BYTE),
   getal NUMBER(10,2),
   ghi VARCHAR2(10 BYTE),
-  jelmer VARCHAR2(30 BYTE)
+  jelmer VARCHAR2(30 BYTE),
+  jos VARCHAR2(1 BYTE)
 );
