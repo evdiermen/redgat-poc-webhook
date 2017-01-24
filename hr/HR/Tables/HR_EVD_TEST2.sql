@@ -5,6 +5,6 @@ CREATE TABLE hr.hr_evd_test2 (
   ghi VARCHAR2(10 BYTE),
   jelmer VARCHAR2(30 BYTE),
   jos VARCHAR2(1 BYTE),
-  tonny VARCHAR2(25 BYTE),
+  tonny NUMBER(20),
   werner VARCHAR2(26 BYTE)
 );
