@@ -4,5 +4,6 @@ for each row
 declare
 begin
   :new.abc:= 'abc';
+  :new.datum_aangemaakt := sysdate;
 end;
 /

@@ -6,5 +6,6 @@ CREATE TABLE hr.hr_evd_test2 (
   jelmer VARCHAR2(30 BYTE),
   jos VARCHAR2(1 BYTE),
   tonny VARCHAR2(100 BYTE),
-  werner VARCHAR2(26 BYTE)
+  werner VARCHAR2(26 BYTE),
+  datum_aangemaakt DATE
 );
