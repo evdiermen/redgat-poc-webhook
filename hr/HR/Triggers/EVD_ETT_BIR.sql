@@ -3,7 +3,8 @@ before insert ON hr.HR_EVD_TEST2
 for each row
 declare
 begin
-  :new.abc:= 'abc';
+  :new.abc := upper(:new.abc);
+  :new.def := lower(:new.def);
   :new.datum_aangemaakt := sysdate;
 end;
 /
