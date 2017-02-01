@@ -10,6 +10,8 @@ IS
    FUNCTION waarden_verschillen (p_waarde1   IN VARCHAR2,
                                  p_waarde2   IN VARCHAR2)
    RETURN BOOLEAN;
+   
+   procedure hello_wehkamp;
 
 END hr_algemeen_pck;
 /

@@ -19,5 +19,11 @@ IS
               OR (p_waarde1 IS NOT NULL AND p_waarde2 IS NULL));
    END waarden_verschillen;
    
+   procedure hello_wehkamp
+   is
+   begin
+     dbms_output.put_line('Hello Wehkamp');
+   end;
+
 END hr_algemeen_pck;
 /

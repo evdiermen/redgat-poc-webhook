@@ -4,7 +4,7 @@ CREATE TABLE hr.hr_evd_test2 (
   getal NUMBER(10,2),
   ghi VARCHAR2(10 BYTE),
   jelmer VARCHAR2(30 BYTE),
-  kees VARCHAR2(1 BYTE),
+  onno VARCHAR2(1 BYTE),
   tonny VARCHAR2(100 BYTE),
   datum_aangemaakt DATE,
   datum_gewijzigd DATE
